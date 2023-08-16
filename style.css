@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 75px;
+    font-family: 'Tektur', cursive;
+    margin-left: 15px;
+}
+
+#sojourners-text {
+    font-style: italic;
+    font-family: 'Tektur', cursive;
+    color: #fff;
+    background-color: #363636;
+}
+
+#tagline {
+    margin: -20px 0 0 15px;
+    font-weight: bold;
+    font-style:italic;
+    font-size: 25px;
+    font-family: sans-serif;
+    letter-spacing: 10px;
+    color: #363636;
+}
+
+img {
+    max-width: 100px;
+}
+
+.prayer-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #363636;
+    padding: 20px;
+}
+
+.prayer-input-container h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.prayer-input-container p {
+    margin-top: -15px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#pray-text {
+    font-style: italic;
+    text-decoration: underline;
+    color: #29bd61;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+#requestField, #nameField {
+    height: 50px;
+    width: 100%;
+    min-width: 300px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background: none;
+    color: #fff;
+    text-indent: 20px;
+    margin-bottom: 15px;
+}
+#requestField:focus, #nameField:focus {
+    outline: none;
+    border: 1px solid #4eac55;
+}
+
+#requestSubmitBtn {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background: none;
+    cursor: pointer;
+}
+#requestSubmitBtn:hover {
+    color: #4eac55;
+    border: 1px solid #4eac55;
+}
+
+.content-003 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-request-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 45px;
+}
+
+.requests-e {
+    background-color: #ececec;
+}
+
+#requestContainer {
+    width: 70%;
+    max-width: 700px;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 1500px) {
+    
+}
