@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@800&display=swap" rel="stylesheet">
+    <title>We The Sojourners</title>
+</head>
+<body>
+    <header>
+        <h1>We The <span id="sojourners-text">Sojourners.</span></h1>
+        <div style="margin-right: 25px">
+            <a href="https://www.tiktok.com/@wearesojourners" target="_blank"><img src="tt-logo.png" alt="TikTok"></a>
+            <a href="https://www.youtube.com/@wethesojourners" target="_blank"><img src="yt-logo.png" alt="Youtube"></a>
+        </div>
+    </header>
+    <div class="prayer-input-container">
+        <h1>How can we <span id="pray-text">pray</span> for you?</h1>
+        <p>Enter your prayer requests below, and prayers will start coming your way!</p>
+        <form action="">
+            <input type="text" id="nameField" placeholder="your name (optional)">
+            <input type="text" id="requestField" placeholder="enter prayer request">
+            <input type="submit" id="requestSubmitBtn">
+        </form>
+    </div>
+    <div class="content-003">
+        <h1>Take some time to read and pray for others.</h1>
+        <a href=""><img src="arrowdown.png" alt="arrowdown"></a>
+    </div>
+    <script type="text/javascript">
+        if (screen.width <= 980) {
+            document.location = "m.index.html";
+        }
+    </script>
+</body>
+</html>
